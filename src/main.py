@@ -1,5 +1,5 @@
 from src.trainer.model_trainer import ModelTrainer
-from visualization.history_visualizer import HistoryVisualizer
+from src.visualization.history_visualizer import HistoryVisualizer
 
 if __name__ == '__main__':
     trainer = ModelTrainer()
