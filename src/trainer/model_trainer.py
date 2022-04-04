@@ -1,6 +1,6 @@
 from src.datasets.datasetloader import DatasetLoader
-from src.models.original.alexnet_tensorflow import AlexNet
-from src.models.refactor.alexnet_tensorflow_refactored import AlexNetRefactored, AlexNetRefactoredLight
+from src.models.alexnet_tensorflow import AlexNet
+from src.models.alexnet_tensorflow_refactored import AlexNetRefactored, AlexNetRefactoredLight
 
 
 class ModelTrainer:
